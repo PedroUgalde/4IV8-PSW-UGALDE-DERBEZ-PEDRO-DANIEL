@@ -37,10 +37,16 @@ y los vamos a hacer girar alternar y transformar
    
 }
 
+
+
 .label-container{
 width: 100%;
 padding:1rem;
 box-sizing: border-box;  
+}
+
+.body{
+    background:linear-gradient( to right, red, orange, yellow, green, blue);
 }
 
 .label{
