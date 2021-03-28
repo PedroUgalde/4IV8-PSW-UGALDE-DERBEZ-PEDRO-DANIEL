@@ -35,3 +35,7 @@ p{
     color: #000;
 
 }
+
+select{
+    padding-left: 50%;
+}

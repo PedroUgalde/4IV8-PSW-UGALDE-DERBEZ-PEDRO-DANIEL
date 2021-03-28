@@ -17,11 +17,15 @@ function validarn(e){
 }
 
 
+
+
 function interes(){
     var valor = document.formulario.cantidad.value;
     var result = parseInt(valor);
+    var mes = formulario.cantidadMeses.value;
+    var resultMeses= parseInt(mes);
     var interes = result*0.02;
-    var total = result+interes;
+    var total = result+interes*resultMeses;
 
     document.formulario.sueldoti.value = "$"+total;
 }
@@ -30,3 +34,5 @@ function borrar(){
     document.formulario.sueldoti.value = "";
     document.formulario.cantidad.value = "";
 }
+
+//var btn =document.querySelector('#No_meses');
