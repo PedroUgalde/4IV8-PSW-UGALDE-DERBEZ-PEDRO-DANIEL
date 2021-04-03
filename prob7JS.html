@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/problemas.css">
+    <script src="JS/prob7.js"></script>
+    <title>Problmea 7</title>
+</head>
+<body>
+    <nav>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://github.com/PedroUgalde/4IV8-PSW-UGALDE-DERBEZ-PEDRO-DANIEL.git">PAG GITHUB :3</a>
+                </td>
+                <td>
+                    <a href="index.html">INDEX CURRICULUM</a>
+                </td>
+                <td>
+                    <a href="menuJS.html">MENU DE PROBLEMAS :></a>
+                </td>
+            </tr>
+            
+            
+        </table>
+    <header>PROBLEMA 7</header>
+    ´<p>
+        Leer 2 números: 
+    </p>
+    <ul>
+        <li>
+            Si son iguales: multiplicarlos
+        </li>
+        <li>
+            Si el primero es mayor que el segundo: restarlos
+        </li>
+        <li>
+            Si el segundo es mayor que el primero: sumarlos
+        </li>
+    </ul>
+    
+    <form method="POST" name="formulario" >
+        <table align="center" border="1">
+            <tr>
+
+                <td class="td_sup" >Introduce el primer numero: </td>
+                <td class="td_inf" ><input type="text" name="num1"
+                    onkeypress="return validarn(event)" >
+                </td>
+            </tr> 
+            <tr>
+
+                <td class="td_sup" >Introduce el segundo numero: </td>
+                <td class="td_inf" ><input type="text" name="num2"
+                    onkeypress="return validarn (event)" >
+                </td>
+            </tr> 
+            
+            <tr>
+                <td></td>
+                <td class="td_inf" > <input type="button" value="Realizar operaciones"
+                    name="enviar" onclick="numeros()" > </td> 
+            </tr>
+           
+            <tr>
+                <td class="td_sup" >total : </td>
+                <td> <input type="text" name="totales"
+                    id="total" readonly="readonly" 
+                    class="input_text" > </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="button" value="Borrar" 
+                    name="reset" onclick="borrar()" > </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/problemas.css">
+    <script src="JS/prob6.js"></script>
+    <title>Problmea 6</title>
+</head>
+<body>
+
+    <nav>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://github.com/PedroUgalde/4IV8-PSW-UGALDE-DERBEZ-PEDRO-DANIEL.git">PAG GITHUB :3</a>
+                </td>
+                <td>
+                    <a href="index.html">INDEX CURRICULUM</a>
+                </td>
+                <td>
+                    <a href="menuJS.html">MENU DE PROBLEMAS :></a>
+                </td>
+            </tr>
+            
+            
+        </table>
+    <header>PROBLEMA 6</header>
+    ´<p>
+        Algoritmo de Edad c:
+    </p>
+    
+    <form method="POST" name="formulario" >
+        <table align="center" border="1">
+
+                <td class="td_sup" >Introduce el tu año de nacimiento</td>
+                <td class="td_inf" ><input type="text" name="año"
+                    onkeypress="return validarn(event)" >
+                </td>
+            </tr> 
+            <tr>
+
+                <td class="td_sup" >Introduce el año actual</td>
+                <td class="td_inf" ><input type="text" name="actual"
+                    onkeypress="return validarn(event)" >
+                </td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td class="td_inf" > <input type="button" value="Calcular edad "
+                    name="enviar" onclick="añoss()" > </td> 
+            </tr>
+           
+            <tr>
+                <td class="td_sup" >Usted tiene </td>
+                <td> <input type="text" name="edad"
+                    id="edad readonly="readonly" 
+                    class="input_text" > </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="button" value="Borrar" 
+                    name="reset" onclick="borrar()" > </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
